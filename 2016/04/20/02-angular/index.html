@@ -586,7 +586,7 @@
 <h2 id="路由"><a href="#路由" class="headerlink" title="路由"></a>路由</h2><p>第一，下载路由模块：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yarn add angular-route</div></pre></td></tr></table></figure>
 <p>第二，引包：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;script src=<span class="string">"path/to/angular.js"</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div><div class="line">&lt;script src=<span class="string">"path/to/angular-route.js"</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;script src=<span class="string">"path/to/angular.js"</span>&gt;&lt;/script&gt;</div><div class="line">&lt;script src=<span class="string">"path/to/angular-route.js"</span>&gt;&lt;/script&gt;</div></pre></td></tr></table></figure>
 <p>第三，在要使用路由的模块中加载对路由模块的依赖：</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">angular.module(<span class="string">'ngRouteExample'</span>, [<span class="string">'ngRoute'</span>])</div></pre></td></tr></table></figure>
 <p>第四，在加载路由模块的模块上通过 <code>config</code> 方法配置路由规则：</p>
